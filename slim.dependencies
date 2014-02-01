@@ -20,7 +20,7 @@
     "branch": "kk4.4"
   },
   {
-    "repository": "SlimRoms/proprietary_vendor_sony_",
+    "repository": "SlimRoms/proprietary_vendor_sony",
     "target_path": "vendor/sony",
     "branch": "kk4.4"
   }

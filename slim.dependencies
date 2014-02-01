@@ -16,7 +16,7 @@
   },
   {
     "repository": "SlimRoms/device_sony_rhine-common",
-    "target_path": "device/sony/rhine-common"
+    "target_path": "device/sony/rhine-common",
     "branch": "kk4.4"
   }
 ]

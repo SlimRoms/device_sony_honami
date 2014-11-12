@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/vold.fstab:system/etc/vold.fstab
 
 # call dalvik heap config
-$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/honami/honami-vendor.mk)

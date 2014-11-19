@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/vold.fstab:system/etc/vold.fstab
 
+# Audio
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
+
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
